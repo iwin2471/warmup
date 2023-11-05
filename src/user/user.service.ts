@@ -40,7 +40,6 @@ export class UserService {
 
   addTags(id: number, tags: Tags[]) {
     return this.findOne(id).then((user) => {
-      this.userRepository.update()
     });
   }
 }
